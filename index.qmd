@@ -1,0 +1,77 @@
+---
+title: "Physical Activity and Perceived Health"
+subtitle: "An exploration of self-reported health across age, sex, and exercise status"
+author: "Romy Bos"
+date: today
+format:
+  html:
+    theme: cosmo
+---
+
+## Overview
+
+Using data from the **2024 CDC Behavioral Risk Factor Surveillance System (BRFSS)**, this project investigates how participating in physical exercise outside of work relates to self-reported general health across different age groups and biological sexes.
+
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(scales)
+library(plotly)
+
+# Read summarized 2024 BRFSS data
+data <- readRDS("clean_brfss.rds") |>
+  mutate(
+    tooltip_text = paste0(
+      "<b>Age Group:</b> ", age_group, "<br>",
+      "<b>Sex:</b> ", sex, "<br>",
+      "<b>Physical Activity:</b> ", exercise, "<br>",
+      "<b>Good/Excellent Health:</b> ", percent(pct_good_health, accuracy = 0.1), "<br>",
+      "<b>Sample Size:</b> ", comma(total)
+    )
+  )
+```
+
+## Health by Exercise Status and Age
+
+Respondents were asked whether they participated in any physical activity or exercise in the past 30 days and how they would rate their general health (*Excellent*, *Very Good*, *Good*, *Fair*, or *Poor*). *Hover over the bars to explore specific percentages and sample counts.*
+
+```{r}
+#| label: health-plot
+#| fig-width: 9
+#| fig-height: 5.5
+#| echo: false
+#| message: false
+#| warning: false
+
+p <- ggplot(data, aes(x = age_group, y = pct_good_health, fill = exercise, text = tooltip_text)) +
+  geom_col(position = position_dodge(width = 0.8), width = 0.7) +
+  facet_wrap(~ sex) +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1), limits = c(0, 0.75)) +
+  scale_fill_manual(
+    values = c("Any Exercise" = "#2b8cbe", "No Exercise" = "#e34a33")
+  ) +
+  labs(
+    title = "Self-Reported Good Health by Exercise and Age",
+    x = "Age Group",
+    y = "Percent in Excellent or Very Good Health",
+    fill = "Physical Activity"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    legend.position = "bottom",
+    panel.grid.minor = element_blank(),
+    strip.text = element_text(face = "bold", size = 11)
+  )
+
+ggplotly(p, tooltip = "text")
+```
+
+## Key Findings
+
+- **Consistent Exercise Advantage:** Across every single age group, adults who reported any physical activity in the past 30 days were roughly twice as likely to rate their health as excellent or very good compared to those reporting no physical activity.
+- **Trends Across Age:** While overall self-reported health tends to decline as age increases, the gap between active and inactive individuals remains substantial even among seniors aged 65 and older.
+- **Sex Consistency:** Similar patterns hold across both female and male respondents.

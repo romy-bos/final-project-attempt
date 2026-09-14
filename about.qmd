@@ -1,0 +1,39 @@
+---
+title: "About This Project"
+---
+
+## About the Website
+
+This project is an analysis of public health surveillance data from the **2024 Behavioral Risk Factor Surveillance System (BRFSS)**, conducted by the **Centers for Disease Control and Prevention (CDC)**. 
+
+The BRFSS is the nation's premier health-related telephone survey, collecting data from over 400,000 U.S. adults annually regarding health-related risk behaviors, chronic health conditions, and use of preventive services.
+
+The goal of this website is to provide an accessible, data-driven look at how lifestyle behaviors—such as regular physical activity—interact with demographic factors like age and sex to shape perceived general health.
+
+## Other Variables for Future Exploration
+
+The 2024 BRFSS dataset contains over 300 variables that offer rich opportunities for further investigation:
+
+1. **Mental and Physical Health Days (`MENTHLTH`, `PHYSHLTH`)**
+   - *Description:* Number of days in the past 30 days that physical or mental health was reported as "not good".
+   - *Potential question:* Does regular exercise have a stronger relationship with reducing poor mental health days or poor physical health days?
+
+2. **Body Mass Index (`_BMI5`, `_BMI5CAT`)**
+   - *Description:* Calculated continuous BMI and categories (*Underweight*, *Normal Weight*, *Overweight*, *Obese*).
+   - *Potential question:* How does physical activity mediate the relationship between BMI category and self-reported health?
+
+3. **Socioeconomic Status (`_INCOMG1`, `_EDUCAG`)**
+   - *Description:* Annual household income brackets and highest level of education completed.
+   - *Potential question:* How do health disparities persist across income levels after adjusting for exercise habits?
+
+4. **Tobacco and Alcohol Use (`_SMOKER3`, `DRNKANY6`)**
+   - *Description:* Smoking frequency (daily, occasional, former, never) and alcohol consumption in the past 30 days.
+   - *Potential question:* How do combined risk factors (e.g., smoking and inactivity) compound health outcomes?
+
+5. **Geographic Variation (`_STATE`)**
+   - *Description:* State FIPS codes covering 49 U.S. states, D.C., and territories.
+   - *Potential question:* Which states have the highest rates of active adults, and does this correspond to higher self-reported health?
+
+## About the Author
+
+This project was created by **Romy Bos** as part of a data science course using R, the tidyverse, and Quarto.

@@ -1,0 +1,11 @@
+# Large data files
+*.XPT
+*.xpt
+*.zip
+LLCP2024.XPT
+LLCP2024XPT.zip
+
+# Quarto build directories
+/.quarto/
+/_site/
+**/*.quarto_ipynb
