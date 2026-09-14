@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About This Project",
+    "section": "",
+    "text": "This project is an analysis of public health surveillance data from the 2024 Behavioral Risk Factor Surveillance System (BRFSS), conducted by the Centers for Disease Control and Prevention (CDC).\nThe BRFSS is the nation’s premier health-related telephone survey, collecting data from over 400,000 U.S. adults annually regarding health-related risk behaviors, chronic health conditions, and use of preventive services.\nThe goal of this website is to provide an accessible, data-driven look at how lifestyle behaviors—such as regular physical activity—interact with demographic factors like age and sex to shape perceived general health."
+  },
+  {
+    "objectID": "about.html#about-the-website",
+    "href": "about.html#about-the-website",
+    "title": "About This Project",
+    "section": "",
+    "text": "This project is an analysis of public health surveillance data from the 2024 Behavioral Risk Factor Surveillance System (BRFSS), conducted by the Centers for Disease Control and Prevention (CDC).\nThe BRFSS is the nation’s premier health-related telephone survey, collecting data from over 400,000 U.S. adults annually regarding health-related risk behaviors, chronic health conditions, and use of preventive services.\nThe goal of this website is to provide an accessible, data-driven look at how lifestyle behaviors—such as regular physical activity—interact with demographic factors like age and sex to shape perceived general health."
+  },
+  {
+    "objectID": "about.html#other-variables-for-future-exploration",
+    "href": "about.html#other-variables-for-future-exploration",
+    "title": "About This Project",
+    "section": "Other Variables for Future Exploration",
+    "text": "Other Variables for Future Exploration\nThe 2024 BRFSS dataset contains over 300 variables that offer rich opportunities for further investigation:\n\nMental and Physical Health Days (MENTHLTH, PHYSHLTH)\n\nDescription: Number of days in the past 30 days that physical or mental health was reported as “not good”.\nPotential question: Does regular exercise have a stronger relationship with reducing poor mental health days or poor physical health days?\n\nBody Mass Index (_BMI5, _BMI5CAT)\n\nDescription: Calculated continuous BMI and categories (Underweight, Normal Weight, Overweight, Obese).\nPotential question: How does physical activity mediate the relationship between BMI category and self-reported health?\n\nSocioeconomic Status (_INCOMG1, _EDUCAG)\n\nDescription: Annual household income brackets and highest level of education completed.\nPotential question: How do health disparities persist across income levels after adjusting for exercise habits?\n\nTobacco and Alcohol Use (_SMOKER3, DRNKANY6)\n\nDescription: Smoking frequency (daily, occasional, former, never) and alcohol consumption in the past 30 days.\nPotential question: How do combined risk factors (e.g., smoking and inactivity) compound health outcomes?\n\nGeographic Variation (_STATE)\n\nDescription: State FIPS codes covering 49 U.S. states, D.C., and territories.\nPotential question: Which states have the highest rates of active adults, and does this correspond to higher self-reported health?"
+  },
+  {
+    "objectID": "about.html#about-the-author",
+    "href": "about.html#about-the-author",
+    "title": "About This Project",
+    "section": "About the Author",
+    "text": "About the Author\nThis project was created by Romy Bos as part of a data science course using R, the tidyverse, and Quarto."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Physical Activity and Perceived Health",
+    "section": "",
+    "text": "Using data from the 2024 CDC Behavioral Risk Factor Surveillance System (BRFSS), this project investigates how participating in physical exercise outside of work relates to self-reported general health across different age groups and biological sexes."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Physical Activity and Perceived Health",
+    "section": "",
+    "text": "Using data from the 2024 CDC Behavioral Risk Factor Surveillance System (BRFSS), this project investigates how participating in physical exercise outside of work relates to self-reported general health across different age groups and biological sexes."
+  },
+  {
+    "objectID": "index.html#health-by-exercise-status-and-age",
+    "href": "index.html#health-by-exercise-status-and-age",
+    "title": "Physical Activity and Perceived Health",
+    "section": "Health by Exercise Status and Age",
+    "text": "Health by Exercise Status and Age\nRespondents were asked whether they participated in any physical activity or exercise in the past 30 days and how they would rate their general health (Excellent, Very Good, Good, Fair, or Poor). Hover over the bars to explore specific percentages and sample counts."
+  },
+  {
+    "objectID": "index.html#key-findings",
+    "href": "index.html#key-findings",
+    "title": "Physical Activity and Perceived Health",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nConsistent Exercise Advantage: Across every single age group, adults who reported any physical activity in the past 30 days were roughly twice as likely to rate their health as excellent or very good compared to those reporting no physical activity.\nTrends Across Age: While overall self-reported health tends to decline as age increases, the gap between active and inactive individuals remains substantial even among seniors aged 65 and older.\nSex Consistency: Similar patterns hold across both female and male respondents."
+  }
+]
