@@ -49,10 +49,31 @@
     "text": "Health by Exercise Status and Age\nRespondents were asked whether they participated in any physical activity or exercise in the past 30 days and how they would rate their general health (Excellent, Very Good, Good, Fair, or Poor). Hover over the bars to explore specific percentages and sample counts."
   },
   {
+    "objectID": "index.html#geographic-variation-across-states",
+    "href": "index.html#geographic-variation-across-states",
+    "title": "Physical Activity and Perceived Health",
+    "section": "Geographic Variation Across States",
+    "text": "Geographic Variation Across States\nPhysical activity levels vary considerably across the United States. The interactive map below shows the percentage of adults reporting no physical activity in the past 30 days, along with state obesity rates."
+  },
+  {
+    "objectID": "index.html#inactivity-and-obesity-across-states",
+    "href": "index.html#inactivity-and-obesity-across-states",
+    "title": "Physical Activity and Perceived Health",
+    "section": "Inactivity and Obesity Across States",
+    "text": "Inactivity and Obesity Across States\nDoes higher physical inactivity relate to higher obesity at the state level? The scatter plot below compares the two variables across all 50 states and D.C., with a linear trend line."
+  },
+  {
+    "objectID": "index.html#trends-over-time-inactivity-and-obesity-20112024",
+    "href": "index.html#trends-over-time-inactivity-and-obesity-20112024",
+    "title": "Physical Activity and Perceived Health",
+    "section": "Trends Over Time: Inactivity and Obesity (2011–2024)",
+    "text": "Trends Over Time: Inactivity and Obesity (2011–2024)\nHow have physical inactivity and obesity rates changed across states over the past decade? Click Play or drag the timeline slider to observe state trajectory over time."
+  },
+  {
     "objectID": "index.html#key-findings",
     "href": "index.html#key-findings",
     "title": "Physical Activity and Perceived Health",
     "section": "Key Findings",
-    "text": "Key Findings\n\nConsistent Exercise Advantage: Across every single age group, adults who reported any physical activity in the past 30 days were roughly twice as likely to rate their health as excellent or very good compared to those reporting no physical activity.\nTrends Across Age: While overall self-reported health tends to decline as age increases, the gap between active and inactive individuals remains substantial even among seniors aged 65 and older.\nSex Consistency: Similar patterns hold across both female and male respondents."
+    "text": "Key Findings\n\nConsistent Exercise Advantage: Across every single age group, adults who reported any physical activity in the past 30 days were roughly twice as likely to rate their health as excellent or very good compared to those reporting no physical activity.\nGeographic Disparities: States in the South tend to report higher rates of physical inactivity (often exceeding 28–30%) alongside higher obesity rates, whereas states in the West and New England report lower inactivity rates (often under 20%).\nTrends Across Age: While overall self-reported health tends to decline as age increases, the gap between active and inactive individuals remains substantial even among seniors aged 65 and older.\nSex Consistency: Similar patterns hold across both female and male respondents."
   }
 ]
