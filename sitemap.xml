@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://romy-bos.github.io/final-project-attempt/about.html</loc>
-    <lastmod>2026-09-14T15:20:26.998Z</lastmod>
+    <loc>https://romy-bos.github.io/final-project-attempt/index.html</loc>
+    <lastmod>2026-09-17T17:54:05.049Z</lastmod>
   </url>
   <url>
-    <loc>https://romy-bos.github.io/final-project-attempt/index.html</loc>
-    <lastmod>2026-09-14T15:37:38.286Z</lastmod>
+    <loc>https://romy-bos.github.io/final-project-attempt/about.html</loc>
+    <lastmod>2026-09-17T17:48:03.764Z</lastmod>
+  </url>
+  <url>
+    <loc>https://romy-bos.github.io/final-project-attempt/obesity.html</loc>
+    <lastmod>2026-09-17T17:53:27.328Z</lastmod>
   </url>
 </urlset>
