@@ -1,0 +1,31 @@
+/* Pleasing off-white background */
+body {
+  background-color: #f8fafc;
+  color: #334155;
+}
+
+/* Refined card containers with soft shadow */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+/* Headings with clear contrast */
+h1.title {
+  color: #1e293b;
+  font-weight: 700;
+}
+
+h2 {
+  color: #1e293b;
+  font-weight: 600;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Slightly round plotly chart containers */
+.js-plotly-plot {
+  border-radius: 8px;
+}

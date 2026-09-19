@@ -4,28 +4,63 @@
     "href": "index.html",
     "title": "Physical Activity and Perceived Health",
     "section": "",
-    "text": "Using data from the 2024 CDC Behavioral Risk Factor Surveillance System (BRFSS), this project investigates how participating in physical exercise outside of work relates to self-reported general health across different age groups and biological sexes."
+    "text": "Using respondent-level data from 455,118 individual adults in the 2024 CDC Behavioral Risk Factor Surveillance System (BRFSS), this project investigates how participating in physical exercise outside of work relates to self-reported general health across different age groups and biological sexes."
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
     "title": "Physical Activity and Perceived Health",
     "section": "",
-    "text": "Using data from the 2024 CDC Behavioral Risk Factor Surveillance System (BRFSS), this project investigates how participating in physical exercise outside of work relates to self-reported general health across different age groups and biological sexes."
+    "text": "Using respondent-level data from 455,118 individual adults in the 2024 CDC Behavioral Risk Factor Surveillance System (BRFSS), this project investigates how participating in physical exercise outside of work relates to self-reported general health across different age groups and biological sexes."
   },
   {
     "objectID": "index.html#health-by-exercise-status-and-age",
     "href": "index.html#health-by-exercise-status-and-age",
     "title": "Physical Activity and Perceived Health",
     "section": "Health by Exercise Status and Age",
-    "text": "Health by Exercise Status and Age\nRespondents were asked whether they participated in any physical activity or exercise in the past 30 days and how they would rate their general health (Excellent, Very Good, Good, Fair, or Poor). Hover over the bars to explore specific percentages and sample counts."
+    "text": "Health by Exercise Status and Age\nRespondents were asked whether they participated in any physical activity or exercise in the past 30 days and how they would rate their general health (Excellent, Very Good, Good, Fair, or Poor). This visualization reflects all 455,118 individual observations across demographic subgroups. Hover over the bars to explore specific percentages and sample counts."
   },
   {
-    "objectID": "index.html#key-findings",
-    "href": "index.html#key-findings",
+    "objectID": "index.html#the-socioeconomic-reality-who-gets-to-exercise",
+    "href": "index.html#the-socioeconomic-reality-who-gets-to-exercise",
     "title": "Physical Activity and Perceived Health",
-    "section": "Key Findings",
-    "text": "Key Findings\n\nConsistent Exercise Advantage: Across every single age group, adults who reported any physical activity in the past 30 days were roughly twice as likely to rate their health as excellent or very good compared to those reporting no physical activity.\nGeographic Disparities: States in the South tend to report higher rates of physical inactivity (often exceeding 28–30%) alongside higher obesity rates, whereas states in the West and New England report lower inactivity rates (often under 20%).\nTrends Across Age: While overall self-reported health tends to decline as age increases, the gap between active and inactive individuals remains substantial even among seniors aged 65 and older.\nSex Consistency: Similar patterns hold across both female and male respondents."
+    "section": "The Socioeconomic Reality: Who Gets to Exercise?",
+    "text": "The Socioeconomic Reality: Who Gets to Exercise?\nThe graphic above demonstrates that staying active is strongly associated with better health across every age and sex cohort. However, looking only at individual habits misses a crucial structural factor: socioeconomic access.\nLeisure-time exercise requires disposable time, safe recreational spaces, and financial flexibility. When we examine CDC BRFSS 2024 national data across over 250,000 respondents by household income, a steep gradient emerges. Inactivity drops by more than half as income rises—from 38.2% among adults earning under $15,000 to just 17.4% among those earning $75,000 or more."
+  },
+  {
+    "objectID": "index.html#connecting-the-findings",
+    "href": "index.html#connecting-the-findings",
+    "title": "Physical Activity and Perceived Health",
+    "section": "Connecting the Findings",
+    "text": "Connecting the Findings\n\nConsistent Exercise Advantage: Across every single age group, adults reporting physical activity are roughly twice as likely to rate their health as excellent or very good (51–58% vs. 21–42%).\nSocioeconomic Divide in Opportunity: While active habits benefit health across the board, physical inactivity is concentrated in lower-income households (38.2% for &lt;$15k vs. 17.4% for $75k+), compounding health disparities.\nThe Takeaway: Physical activity is strongly associated with perceived wellbeing, but opportunity to exercise is unequal. Public health interventions must address the structural and economic conditions that restrict access to leisure-time exercise."
+  },
+  {
+    "objectID": "states-trends.html",
+    "href": "states-trends.html",
+    "title": "States & Trends",
+    "section": "",
+    "text": "Physical activity levels vary considerably across the United States. The interactive map below shows the percentage of adults reporting no physical activity in the past 30 days, along with state obesity rates."
+  },
+  {
+    "objectID": "states-trends.html#geographic-variation-across-states",
+    "href": "states-trends.html#geographic-variation-across-states",
+    "title": "States & Trends",
+    "section": "",
+    "text": "Physical activity levels vary considerably across the United States. The interactive map below shows the percentage of adults reporting no physical activity in the past 30 days, along with state obesity rates."
+  },
+  {
+    "objectID": "states-trends.html#inactivity-and-obesity-across-states",
+    "href": "states-trends.html#inactivity-and-obesity-across-states",
+    "title": "States & Trends",
+    "section": "Inactivity and Obesity Across States",
+    "text": "Inactivity and Obesity Across States\nDoes higher physical inactivity relate to higher obesity at the state level? The scatter plot below compares the two variables across all 50 states and D.C., with a linear trend line."
+  },
+  {
+    "objectID": "states-trends.html#trends-over-time-inactivity-and-obesity-20112024",
+    "href": "states-trends.html#trends-over-time-inactivity-and-obesity-20112024",
+    "title": "States & Trends",
+    "section": "Trends Over Time: Inactivity and Obesity (2011–2024)",
+    "text": "Trends Over Time: Inactivity and Obesity (2011–2024)\nHow have physical inactivity and obesity rates changed across states over the past decade? Click Play or drag the timeline slider to observe state trajectory over time."
   },
   {
     "objectID": "about.html",
@@ -56,31 +91,31 @@
     "text": "About the Author\nThis project was created by Romy Bos as part of a data science course using R, the tidyverse, and Quarto."
   },
   {
-    "objectID": "obesity.html",
-    "href": "obesity.html",
-    "title": "Obesity in United States",
+    "objectID": "story.html",
+    "href": "story.html",
+    "title": "The Exercise–Health Connection",
     "section": "",
-    "text": "Physical activity levels vary considerably across the United States. The interactive map below shows the percentage of adults reporting no physical activity in the past 30 days, along with state obesity rates."
+    "text": "This visualization compares self-reported health between adults who engage in leisure-time physical activity and those who do not, broken down by age bracket and biological sex. The data comes from the 2024 Behavioral Risk Factor Surveillance System (BRFSS), an annual telephone survey administered by the Centers for Disease Control and Prevention (CDC) covering 455,118 adult respondents across all 50 states and U.S. territories.\nAcross every single age cohort—from young adults aged 18–24 to seniors aged 65 and older—individuals reporting regular physical activity are dramatically more likely to rate their health as excellent or very good. For instance, among adults aged 45–54, over 53% of active men and women report excellent or very good health, compared to only 22–27% of their inactive peers, representing an advantage of more than 25 percentage points.\nWhat makes this pattern especially notable is its persistence across the entire lifespan. While the baseline share of adults in top health naturally declines with age, the relative gap associated with physical activity remains wide and durable. Even among seniors aged 65 and older, more than half (51% of women, 47% of men) of active individuals report good or excellent health, whereas fewer than a quarter of inactive seniors do.\nCrucially, these findings demonstrate an association, not causation. Because the BRFSS is an observational cross-sectional survey, it cannot establish whether physical activity directly causes improved health, or whether healthier individuals simply have greater physical capacity and energy to exercise (reverse causation). Unmeasured confounders—such as pre-existing chronic conditions, socioeconomic status, and access to healthcare—also shape both activity habits and self-reported health.\n\n\n\n\n\n\nNoteMethodological Considerations & Limitations\n\n\n\n\nCross-Sectional Sampling: Because data is collected at a single moment in time, it is impossible to establish temporal precedence between physical activity and health status.\nSelf-Reporting Bias: Both exercise frequency and perceived health status are subjective, self-reported telephone responses, which may be subject to recall inaccuracy or social desirability bias.\nHealthy User Effect: Healthier individuals with higher baseline energy or fewer chronic limitations are naturally more capable of maintaining active leisure routines.\nResidual Confounding: Factors such as healthcare access, occupational physical demands, nutrition, and household wealth are not controlled for in simple bivariate stratifications."
   },
   {
-    "objectID": "obesity.html#geographic-variation-across-states",
-    "href": "obesity.html#geographic-variation-across-states",
-    "title": "Obesity in United States",
+    "objectID": "story.html#physical-activity-and-general-health",
+    "href": "story.html#physical-activity-and-general-health",
+    "title": "The Exercise–Health Connection",
     "section": "",
-    "text": "Physical activity levels vary considerably across the United States. The interactive map below shows the percentage of adults reporting no physical activity in the past 30 days, along with state obesity rates."
+    "text": "This visualization compares self-reported health between adults who engage in leisure-time physical activity and those who do not, broken down by age bracket and biological sex. The data comes from the 2024 Behavioral Risk Factor Surveillance System (BRFSS), an annual telephone survey administered by the Centers for Disease Control and Prevention (CDC) covering 455,118 adult respondents across all 50 states and U.S. territories.\nAcross every single age cohort—from young adults aged 18–24 to seniors aged 65 and older—individuals reporting regular physical activity are dramatically more likely to rate their health as excellent or very good. For instance, among adults aged 45–54, over 53% of active men and women report excellent or very good health, compared to only 22–27% of their inactive peers, representing an advantage of more than 25 percentage points.\nWhat makes this pattern especially notable is its persistence across the entire lifespan. While the baseline share of adults in top health naturally declines with age, the relative gap associated with physical activity remains wide and durable. Even among seniors aged 65 and older, more than half (51% of women, 47% of men) of active individuals report good or excellent health, whereas fewer than a quarter of inactive seniors do.\nCrucially, these findings demonstrate an association, not causation. Because the BRFSS is an observational cross-sectional survey, it cannot establish whether physical activity directly causes improved health, or whether healthier individuals simply have greater physical capacity and energy to exercise (reverse causation). Unmeasured confounders—such as pre-existing chronic conditions, socioeconomic status, and access to healthcare—also shape both activity habits and self-reported health.\n\n\n\n\n\n\nNoteMethodological Considerations & Limitations\n\n\n\n\nCross-Sectional Sampling: Because data is collected at a single moment in time, it is impossible to establish temporal precedence between physical activity and health status.\nSelf-Reporting Bias: Both exercise frequency and perceived health status are subjective, self-reported telephone responses, which may be subject to recall inaccuracy or social desirability bias.\nHealthy User Effect: Healthier individuals with higher baseline energy or fewer chronic limitations are naturally more capable of maintaining active leisure routines.\nResidual Confounding: Factors such as healthcare access, occupational physical demands, nutrition, and household wealth are not controlled for in simple bivariate stratifications."
   },
   {
-    "objectID": "obesity.html#inactivity-and-obesity-across-states",
-    "href": "obesity.html#inactivity-and-obesity-across-states",
-    "title": "Obesity in United States",
-    "section": "Inactivity and Obesity Across States",
-    "text": "Inactivity and Obesity Across States\nDoes higher physical inactivity relate to higher obesity at the state level? The scatter plot below compares the two variables across all 50 states and D.C., with a linear trend line."
+    "objectID": "explore.html",
+    "href": "explore.html",
+    "title": "Explore Physical Activity & Health",
+    "section": "",
+    "text": "Use the interactive controls below to explore how self-reported health varies across different demographic and lifestyle groups in the 2024 CDC BRFSS dataset. Filter by biological sex, leisure-time physical activity, and age bracket to see how the distribution and sample sizes adjust in real time.\n\ndata = transpose(brfss_raw)\n\n\n\n\n\n\n\nviewof selected_sex = Inputs.radio(\n  [\"All\", \"Female\", \"Male\"], \n  {value: \"All\", label: html`&lt;b&gt;Sex:&lt;/b&gt;`}\n)\nviewof selected_exercise = Inputs.radio(\n  [\"All\", \"Any Exercise\", \"No Exercise\"], \n  {value: \"All\", label: html`&lt;b&gt;Physical Activity:&lt;/b&gt;`}\n)\nviewof selected_ages = Inputs.checkbox(\n  [\"18–24\", \"25–34\", \"35–44\", \"45–54\", \"55–64\", \"65+\"], \n  {\n    value: [\"18–24\", \"25–34\", \"35–44\", \"45–54\", \"55–64\", \"65+\"], \n    label: html`&lt;b&gt;Age Groups:&lt;/b&gt;`\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfiltered = data.filter(d =&gt; {\n  const matchSex = selected_sex === \"All\" || d.sex === selected_sex;\n  const matchEx = selected_exercise === \"All\" || d.exercise === selected_exercise;\n  const matchAge = selected_ages.includes(d.age_group);\n  return matchSex && matchEx && matchAge;\n})\n\ntotal_n = filtered.reduce((acc, d) =&gt; acc + d.total, 0)\nweighted_pct = total_n &gt; 0 \n  ? (filtered.reduce((acc, d) =&gt; acc + d.pct_good_health * d.total, 0) / total_n * 100).toFixed(1) \n  : \"0.0\"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhtml`\n&lt;div style=\"background-color: #f8f9fa; border-left: 4px solid #2b8cbe; padding: 12px 18px; margin: 15px 0 25px 0; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);\"&gt;\n  &lt;span style=\"font-size: 1.05em; font-weight: 600; color: #2c3e50;\"&gt;Active Filter Summary:&lt;/span&gt;&lt;br&gt;\n  &lt;strong&gt;Total Sample Size:&lt;/strong&gt; ${total_n.toLocaleString()} respondents &nbsp;|&nbsp; \n  &lt;strong&gt;Overall Good/Excellent Health:&lt;/strong&gt; ${weighted_pct}%\n&lt;/div&gt;\n`\n\n\n\n\n\n\n\n\nPlot.plot({\n  title: \"Percent Reporting Excellent or Very Good Health\",\n  subtitle: `Showing ${filtered.length} subgroup${filtered.length === 1 ? '' : 's'} based on active filters`,\n  width: Math.min(width, 820),\n  height: 420,\n  marginLeft: 55,\n  marginBottom: 45,\n  x: { \n    label: \"Age Group\", \n    domain: [\"18–24\", \"25–34\", \"35–44\", \"45–54\", \"55–64\", \"65+\"],\n    padding: 0.2\n  },\n  y: { \n    label: \"Excellent or Very Good Health (%)\", \n    domain: [0, 75], \n    grid: true \n  },\n  color: {\n    domain: [\"Any Exercise\", \"No Exercise\"],\n    range: [\"#2b8cbe\", \"#e34a33\"],\n    legend: true\n  },\n  marks: [\n    Plot.barY(filtered, {\n      x: \"age_group\",\n      y: \"pct_display\",\n      fill: \"exercise\",\n      fx: selected_sex === \"All\" ? \"sex\" : undefined,\n      dodge: \"exercise\",\n      tip: true,\n      title: d =&gt; `Age: ${d.age_group}\\nSex: ${d.sex}\\nPhysical Activity: ${d.exercise}\\nGood/Excellent Health: ${d.pct_display}%\\nSample Size: ${d.total.toLocaleString()} respondents`\n    }),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\nThe table below updates automatically to match your selections, displaying exact percentages and sample sizes.\n\n\nInputs.table(filtered, {\n  columns: [\"age_group\", \"sex\", \"exercise\", \"pct_display\", \"total\"],\n  header: {\n    age_group: \"Age Group\",\n    sex: \"Sex\",\n    exercise: \"Physical Activity\",\n    pct_display: \"Good/Excellent Health (%)\",\n    total: \"Sample Size (N)\"\n  },\n  format: {\n    pct_display: d =&gt; `${d}%`,\n    total: d =&gt; d.toLocaleString()\n  }\n})"
   },
   {
-    "objectID": "obesity.html#trends-over-time-inactivity-and-obesity-20112024",
-    "href": "obesity.html#trends-over-time-inactivity-and-obesity-20112024",
-    "title": "Obesity in United States",
-    "section": "Trends Over Time: Inactivity and Obesity (2011–2024)",
-    "text": "Trends Over Time: Inactivity and Obesity (2011–2024)\nHow have physical inactivity and obesity rates changed across states over the past decade? Click Play or drag the timeline slider to observe state trajectory over time."
+    "objectID": "explore.html#interactive-data-explorer",
+    "href": "explore.html#interactive-data-explorer",
+    "title": "Explore Physical Activity & Health",
+    "section": "",
+    "text": "Use the interactive controls below to explore how self-reported health varies across different demographic and lifestyle groups in the 2024 CDC BRFSS dataset. Filter by biological sex, leisure-time physical activity, and age bracket to see how the distribution and sample sizes adjust in real time.\n\ndata = transpose(brfss_raw)\n\n\n\n\n\n\n\nviewof selected_sex = Inputs.radio(\n  [\"All\", \"Female\", \"Male\"], \n  {value: \"All\", label: html`&lt;b&gt;Sex:&lt;/b&gt;`}\n)\nviewof selected_exercise = Inputs.radio(\n  [\"All\", \"Any Exercise\", \"No Exercise\"], \n  {value: \"All\", label: html`&lt;b&gt;Physical Activity:&lt;/b&gt;`}\n)\nviewof selected_ages = Inputs.checkbox(\n  [\"18–24\", \"25–34\", \"35–44\", \"45–54\", \"55–64\", \"65+\"], \n  {\n    value: [\"18–24\", \"25–34\", \"35–44\", \"45–54\", \"55–64\", \"65+\"], \n    label: html`&lt;b&gt;Age Groups:&lt;/b&gt;`\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfiltered = data.filter(d =&gt; {\n  const matchSex = selected_sex === \"All\" || d.sex === selected_sex;\n  const matchEx = selected_exercise === \"All\" || d.exercise === selected_exercise;\n  const matchAge = selected_ages.includes(d.age_group);\n  return matchSex && matchEx && matchAge;\n})\n\ntotal_n = filtered.reduce((acc, d) =&gt; acc + d.total, 0)\nweighted_pct = total_n &gt; 0 \n  ? (filtered.reduce((acc, d) =&gt; acc + d.pct_good_health * d.total, 0) / total_n * 100).toFixed(1) \n  : \"0.0\"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhtml`\n&lt;div style=\"background-color: #f8f9fa; border-left: 4px solid #2b8cbe; padding: 12px 18px; margin: 15px 0 25px 0; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);\"&gt;\n  &lt;span style=\"font-size: 1.05em; font-weight: 600; color: #2c3e50;\"&gt;Active Filter Summary:&lt;/span&gt;&lt;br&gt;\n  &lt;strong&gt;Total Sample Size:&lt;/strong&gt; ${total_n.toLocaleString()} respondents &nbsp;|&nbsp; \n  &lt;strong&gt;Overall Good/Excellent Health:&lt;/strong&gt; ${weighted_pct}%\n&lt;/div&gt;\n`\n\n\n\n\n\n\n\n\nPlot.plot({\n  title: \"Percent Reporting Excellent or Very Good Health\",\n  subtitle: `Showing ${filtered.length} subgroup${filtered.length === 1 ? '' : 's'} based on active filters`,\n  width: Math.min(width, 820),\n  height: 420,\n  marginLeft: 55,\n  marginBottom: 45,\n  x: { \n    label: \"Age Group\", \n    domain: [\"18–24\", \"25–34\", \"35–44\", \"45–54\", \"55–64\", \"65+\"],\n    padding: 0.2\n  },\n  y: { \n    label: \"Excellent or Very Good Health (%)\", \n    domain: [0, 75], \n    grid: true \n  },\n  color: {\n    domain: [\"Any Exercise\", \"No Exercise\"],\n    range: [\"#2b8cbe\", \"#e34a33\"],\n    legend: true\n  },\n  marks: [\n    Plot.barY(filtered, {\n      x: \"age_group\",\n      y: \"pct_display\",\n      fill: \"exercise\",\n      fx: selected_sex === \"All\" ? \"sex\" : undefined,\n      dodge: \"exercise\",\n      tip: true,\n      title: d =&gt; `Age: ${d.age_group}\\nSex: ${d.sex}\\nPhysical Activity: ${d.exercise}\\nGood/Excellent Health: ${d.pct_display}%\\nSample Size: ${d.total.toLocaleString()} respondents`\n    }),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\nThe table below updates automatically to match your selections, displaying exact percentages and sample sizes.\n\n\nInputs.table(filtered, {\n  columns: [\"age_group\", \"sex\", \"exercise\", \"pct_display\", \"total\"],\n  header: {\n    age_group: \"Age Group\",\n    sex: \"Sex\",\n    exercise: \"Physical Activity\",\n    pct_display: \"Good/Excellent Health (%)\",\n    total: \"Sample Size (N)\"\n  },\n  format: {\n    pct_display: d =&gt; `${d}%`,\n    total: d =&gt; d.toLocaleString()\n  }\n})"
   }
 ]

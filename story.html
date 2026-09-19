@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About This Project – BRFSS 2024 Analysis</title>
+<title>The Exercise–Health Connection – BRFSS 2024 Analysis</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -108,13 +108,13 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">States &amp; Trends</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./story.html"> 
+    <a class="nav-link active" href="./story.html" aria-current="page"> 
 <span class="menu-text">The Exercise–Health Connection</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -138,9 +138,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-the-website" id="toc-about-the-website" class="nav-link active" data-scroll-target="#about-the-website">About the Website</a></li>
-  <li><a href="#other-variables-for-future-exploration" id="toc-other-variables-for-future-exploration" class="nav-link" data-scroll-target="#other-variables-for-future-exploration">Other Variables for Future Exploration</a></li>
-  <li><a href="#about-the-author" id="toc-about-the-author" class="nav-link" data-scroll-target="#about-the-author">About the Author</a></li>
+  <li><a href="#physical-activity-and-general-health" id="toc-physical-activity-and-general-health" class="nav-link active" data-scroll-target="#physical-activity-and-general-health">Physical Activity and General Health</a></li>
   </ul>
 </nav>
     </div>
@@ -149,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About This Project</h1>
+<h1 class="title">The Exercise–Health Connection</h1>
 </div>
 
 
@@ -166,46 +164,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="about-the-website" class="level2">
-<h2 class="anchored" data-anchor-id="about-the-website">About the Website</h2>
-<p>This project is an analysis of public health surveillance data from the <strong>2024 Behavioral Risk Factor Surveillance System (BRFSS)</strong>, conducted by the <strong>Centers for Disease Control and Prevention (CDC)</strong>.</p>
-<p>The BRFSS is the nation’s premier health-related telephone survey, collecting data from over 400,000 U.S. adults annually regarding health-related risk behaviors, chronic health conditions, and use of preventive services.</p>
-<p>The goal of this website is to provide an accessible, data-driven look at how lifestyle behaviors—such as regular physical activity—interact with demographic factors like age and sex to shape perceived general health.</p>
-</section>
-<section id="other-variables-for-future-exploration" class="level2">
-<h2 class="anchored" data-anchor-id="other-variables-for-future-exploration">Other Variables for Future Exploration</h2>
-<p>The 2024 BRFSS dataset contains over 300 variables that offer rich opportunities for further investigation:</p>
-<ol type="1">
-<li><strong>Mental and Physical Health Days (<code>MENTHLTH</code>, <code>PHYSHLTH</code>)</strong>
+<section id="physical-activity-and-general-health" class="level2">
+<h2 class="anchored" data-anchor-id="physical-activity-and-general-health">Physical Activity and General Health</h2>
+<div class="card p-3 mb-4">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="story_files/figure-html/story-plot-1.png" class="img-fluid figure-img" width="864"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>This visualization compares self-reported health between adults who engage in leisure-time physical activity and those who do not, broken down by age bracket and biological sex. The data comes from the 2024 Behavioral Risk Factor Surveillance System (BRFSS), an annual telephone survey administered by the Centers for Disease Control and Prevention (CDC) covering 455,118 adult respondents across all 50 states and U.S. territories.</p>
+<p>Across every single age cohort—from young adults aged 18–24 to seniors aged 65 and older—individuals reporting regular physical activity are dramatically more likely to rate their health as excellent or very good. For instance, among adults aged 45–54, over 53% of active men and women report excellent or very good health, compared to only 22–27% of their inactive peers, representing an advantage of more than 25 percentage points.</p>
+<p>What makes this pattern especially notable is its persistence across the entire lifespan. While the baseline share of adults in top health naturally declines with age, the relative gap associated with physical activity remains wide and durable. Even among seniors aged 65 and older, more than half (51% of women, 47% of men) of active individuals report good or excellent health, whereas fewer than a quarter of inactive seniors do.</p>
+<p>Crucially, these findings demonstrate an <strong>association, not causation</strong>. Because the BRFSS is an observational cross-sectional survey, it cannot establish whether physical activity directly causes improved health, or whether healthier individuals simply have greater physical capacity and energy to exercise (reverse causation). Unmeasured confounders—such as pre-existing chronic conditions, socioeconomic status, and access to healthcare—also shape both activity habits and self-reported health.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Methodological Considerations &amp; Limitations
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li><em>Description:</em> Number of days in the past 30 days that physical or mental health was reported as “not good”.</li>
-<li><em>Potential question:</em> Does regular exercise have a stronger relationship with reducing poor mental health days or poor physical health days?</li>
-</ul></li>
-<li><strong>Body Mass Index (<code>_BMI5</code>, <code>_BMI5CAT</code>)</strong>
-<ul>
-<li><em>Description:</em> Calculated continuous BMI and categories (<em>Underweight</em>, <em>Normal Weight</em>, <em>Overweight</em>, <em>Obese</em>).</li>
-<li><em>Potential question:</em> How does physical activity mediate the relationship between BMI category and self-reported health?</li>
-</ul></li>
-<li><strong>Socioeconomic Status (<code>_INCOMG1</code>, <code>_EDUCAG</code>)</strong>
-<ul>
-<li><em>Description:</em> Annual household income brackets and highest level of education completed.</li>
-<li><em>Potential question:</em> How do health disparities persist across income levels after adjusting for exercise habits?</li>
-</ul></li>
-<li><strong>Tobacco and Alcohol Use (<code>_SMOKER3</code>, <code>DRNKANY6</code>)</strong>
-<ul>
-<li><em>Description:</em> Smoking frequency (daily, occasional, former, never) and alcohol consumption in the past 30 days.</li>
-<li><em>Potential question:</em> How do combined risk factors (e.g., smoking and inactivity) compound health outcomes?</li>
-</ul></li>
-<li><strong>Geographic Variation (<code>_STATE</code>)</strong>
-<ul>
-<li><em>Description:</em> State FIPS codes covering 49 U.S. states, D.C., and territories.</li>
-<li><em>Potential question:</em> Which states have the highest rates of active adults, and does this correspond to higher self-reported health?</li>
-</ul></li>
-</ol>
-</section>
-<section id="about-the-author" class="level2">
-<h2 class="anchored" data-anchor-id="about-the-author">About the Author</h2>
-<p>This project was created by <strong>Romy Bos</strong> as part of a data science course using R, the tidyverse, and Quarto.</p>
+<li><strong>Cross-Sectional Sampling:</strong> Because data is collected at a single moment in time, it is impossible to establish temporal precedence between physical activity and health status.</li>
+<li><strong>Self-Reporting Bias:</strong> Both exercise frequency and perceived health status are subjective, self-reported telephone responses, which may be subject to recall inaccuracy or social desirability bias.</li>
+<li><strong>Healthy User Effect:</strong> Healthier individuals with higher baseline energy or fewer chronic limitations are naturally more capable of maintaining active leisure routines.</li>
+<li><strong>Residual Confounding:</strong> Factors such as healthcare access, occupational physical demands, nutrition, and household wealth are not controlled for in simple bivariate stratifications.</li>
+</ul>
+</div>
+</div>
 
 
 </section>
